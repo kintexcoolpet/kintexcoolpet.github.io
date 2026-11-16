@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kintexcoolpet.github.io/sitemap.xml
