@@ -19,8 +19,9 @@
 {
   "@context": "https://schema.org",
   "@type": "VeterinaryCare",
+  "@id": "https://kintexcoolpet.github.io/#clinic",
   "name": "쿨펫외과동물병원 킨텍스로점",
-  "alternateName": ["쿨펫외과동물병원", "쿨펫 외과 동물병원", "쿨펫동물병원", "Cool Pet Surgical Animal Hospital"],
+  "alternateName": ["쿨펫동물병원 킨텍스로점", "쿨펫외과동물병원", "쿨펫 외과 동물병원", "쿨펫동물병원", "Cool Pet Surgical Animal Hospital"],
   "description": "일산 킨텍스로 스타필드마켓 지하 2층에 있는 정형외과 수술 특화 동물병원입니다. 2015년 개원 이래 슬개골 탈구, 십자인대 파열(TPLO·CTWO), 고관절, 골절 수술을 중점 진료하며 정형외과 수술 후 당일 퇴원이 가능합니다.",
   "url": "https://kintexcoolpet.github.io/",
   "telephone": "+82-31-911-9975",
@@ -31,6 +32,7 @@
     "https://kintexcoolpet.github.io/images/photo_consult.jpg"
   ],
   "logo": "https://kintexcoolpet.github.io/images/logo.png",
+  "sameAs": ["https://blog.naver.com/coolpetkin", "https://www.instagram.com/kintex_coolpet_surgery_ah/"],
   "foundingDate": "2015",
   "address": {
     "@type": "PostalAddress",
@@ -44,21 +46,27 @@
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
       "opens": "10:00",
+      "closes": "13:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "opens": "14:00",
       "closes": "19:00"
     }
   ],
-  "medicalSpecialty": "정형외과",
+  "areaServed": ["일산", "고양시"],
   "availableService": [
-    {"@type": "MedicalProcedure", "name": "슬개골 탈구 수술"},
-    {"@type": "MedicalProcedure", "name": "십자인대 파열 수술 (TPLO)"},
-    {"@type": "MedicalProcedure", "name": "십자인대 파열 수술 (CTWO)"},
+    {"@type": "MedicalProcedure", "name": "슬개골 탈구 수술", "url": "https://kintexcoolpet.github.io/patella.html"},
+    {"@type": "MedicalProcedure", "name": "십자인대 파열 수술 (TPLO)", "url": "https://kintexcoolpet.github.io/cruciate.html"},
+    {"@type": "MedicalProcedure", "name": "십자인대 파열 수술 (CTWO)", "url": "https://kintexcoolpet.github.io/cruciate.html"},
     {"@type": "MedicalProcedure", "name": "슬개골 탈구·십자인대 파열 동시 교정 수술"},
     {"@type": "MedicalProcedure", "name": "고관절 수술"},
-    {"@type": "MedicalProcedure", "name": "골절 수술"},
+    {"@type": "MedicalProcedure", "name": "골절 수술", "url": "https://kintexcoolpet.github.io/fracture.html"},
     {"@type": "MedicalProcedure", "name": "뼈 기형 교정 수술"},
     {"@type": "MedicalProcedure", "name": "중성화 수술"},
-    {"@type": "MedicalProcedure", "name": "결석 수술"},
-    {"@type": "MedicalProcedure", "name": "종양 제거 수술"},
+    {"@type": "MedicalProcedure", "name": "결석 수술", "url": "https://kintexcoolpet.github.io/stone.html"},
+    {"@type": "MedicalProcedure", "name": "종양 제거 수술", "url": "https://kintexcoolpet.github.io/general-surgery.html"},
     {"@type": "MedicalProcedure", "name": "스케일링·발치 등 치과 진료"},
     {"@type": "MedicalProcedure", "name": "피부 진료"},
     {"@type": "MedicalProcedure", "name": "강아지·고양이 건강검진"}
@@ -614,6 +622,7 @@ footer .brand{margin-bottom:10px}
       <div class="box">
         진료 10:00 ~ 19:00 · 점심 13:00 ~ 14:00 · 휴진 수요일, 일요일<br>
         <em>※ 오후 2~4시는 수술시간으로 진료가 어렵습니다</em>
+        <br><a href="https://blog.naver.com/coolpetkin" rel="noopener">블로그</a> · <a href="https://www.instagram.com/kintex_coolpet_surgery_ah/" rel="noopener">인스타그램</a>
       </div>
     </div>
   </div>
